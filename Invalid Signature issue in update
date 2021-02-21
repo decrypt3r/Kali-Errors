@@ -1,0 +1,7 @@
+Invalid signature for Kali Linux repositories : “The following signatures were invalid: EXPKEYSIG ED444FF07D8D0BF6 Kali Linux Repository”
+
+
+#gpg --keyserver hkp://keys.gnupg.net --recv-key 7D8D0BF6
+#gpg --fingerprint 7D8D0BF6
+#gpg -a --export 7D8D0BF6 | apt-key add -
+#apt update
