@@ -13,3 +13,9 @@ $OUTPUT_FILE = ($DOWNLOAD_DIR+$FILE)
 cmd.exe /c $OUTPUT_FILE /S
 
 Get-Package -Name *vlc*
+
+
+
+cmd.exe /c "C:\Program Files\GIMP 2\uninst\unins000.exe" /VERYSILENT /NORESTART
+
+Get-Package
